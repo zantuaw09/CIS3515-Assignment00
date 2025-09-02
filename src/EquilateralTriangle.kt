@@ -4,4 +4,8 @@ class EquilateralTriangle (_name : String = "Equilateral Triangle"): Triangle() 
     fun setDimensions(side : Double) {
         this.side = side
     }
+
+    override fun printDimensions() {
+        println("Side Length: $side")
+    }
 }

@@ -6,4 +6,9 @@ class Square(_name : String = "Square") : Shape (_name) {
         this.length = length
         this.height = height
     }
+
+    override fun printDimensions() {
+        println("Length: $length")
+        println("Height: $height")
+    }
 }

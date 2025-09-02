@@ -4,4 +4,8 @@ class Circle (_name : String = "Circle") : Shape(_name) {
     fun setDimensions(radius : Double) {
         this.radius = radius
     }
+
+    override fun printDimensions() {
+        println("Radius: $radius")
+    }
 }

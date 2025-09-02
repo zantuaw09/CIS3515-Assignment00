@@ -1,5 +1,5 @@
 fun main (args: Array<String>) {
-    val myShape = Square()
+    val myShape = EquilateralTriangle()
 
-    println(myShape.name)
+    myShape.printDimensions()
 }

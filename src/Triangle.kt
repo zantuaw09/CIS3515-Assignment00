@@ -8,4 +8,10 @@ open class Triangle (_name : String = "Triangle") : Shape(_name ) {
         this.side2 = side2
         this.side3 = side3
     }
+
+    override fun printDimensions() {
+        println("Side 1: $side1")
+        println("Side 2: $side2")
+        println("Side 3: $side3")
+    }
 }
