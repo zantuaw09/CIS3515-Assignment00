@@ -1,7 +1,7 @@
 import kotlin.math.sqrt
 import kotlin.math.pow
 
-class EquilateralTriangle (_name : String = "Equilateral Triangle"): Triangle()  {
+class EquilateralTriangle (_name : String = "Equilateral Triangle"): Triangle(_name)  {
     private var side : Double = 0.0
 
     fun setDimensions(side : Double) {
